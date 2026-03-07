@@ -32,8 +32,14 @@ After your first deploy:
 1. In Netlify: **Site settings → Identity → Enable Identity**
 2. Under Identity settings → **Registration → Invite only**
 3. Under Identity settings → **Services → Git Gateway → Enable Git Gateway**
-4. Invite contributors via **Identity → Invite users** (enter their email)
-5. Contributors visit `https://your-site.netlify.app/admin/` and accept the invite
+4. Under Identity settings → **Emails → Templates**, set custom template paths:
+  - Invitation: `/identity-email-templates/invitation.html`
+  - Confirmation: `/identity-email-templates/confirmation.html`
+  - Password recovery: `/identity-email-templates/recovery.html`
+  - Email change: `/identity-email-templates/email-change.html`
+  (These templates are versioned in `identity-email-templates/` at the project root.)
+5. Save settings, then invite contributors via **Identity → Invite users** (enter their email)
+6. Contributors visit `https://your-site.netlify.app/admin/` and accept the invite
 
 Contributors can then log in and add/edit cryptid entries through a visual interface — no code required.
 
