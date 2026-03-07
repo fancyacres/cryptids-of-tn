@@ -1,0 +1,59 @@
+---
+layout: base.njk
+---
+
+<article class="cryptid-detail">
+
+  <div class="cryptid-header">
+    <h2 class="cryptid-name">{{ title }}</h2>
+    <div class="cryptid-meta-bar">
+      {% if region %}<span class="meta-tag">📍 {{ region }}</span>{% endif %}
+      {% if county %}<span class="meta-tag">{{ county }}</span>{% endif %}
+      {% if first_reported %}<span class="meta-tag">First Reported: {{ first_reported }}</span>{% endif %}
+      {% if status %}<span class="meta-tag status-{{ status | lower | replace(' ', '-') }}">Status: {{ status }}</span>{% endif %}
+      {% if danger %}<span class="meta-tag danger-{{ danger | lower }}">Danger: {{ danger }}</span>{% endif %}
+    </div>
+  </div>
+
+  {% if image %}
+  <figure class="cryptid-figure">
+    <img src="{{ image }}" alt="{{ title }}" class="cryptid-image">
+    {% if image_caption %}<figcaption>{{ image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
+  <div class="cryptid-body">
+    {{ content | safe }}
+  </div>
+
+  {% if sightings and sightings.length %}
+  <div class="sightings-log">
+    <h3>Sightings Log</h3>
+    <table class="sightings-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Witness</th>
+          <th>Account</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in sightings %}
+        <tr>
+          <td class="sighting-date">{{ s.date }}</td>
+          <td>{{ s.location }}</td>
+          <td>{{ s.witness }}</td>
+          <td>{{ s.account }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <div class="cryptid-nav">
+    <a href="/cryptids/" class="back-link">← Return to Field Guide</a>
+  </div>
+
+</article>

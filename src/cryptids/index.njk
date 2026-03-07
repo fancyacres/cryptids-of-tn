@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Field Guide
+eleventyExcludeFromCollections: true
+---
+
+<div class="page-header">
+  <h2>Field Guide to Tennessee Cryptids</h2>
+  <p>A comprehensive index of unclassified creatures reported across the state. Entries are compiled from eyewitness accounts, local records, and field investigations conducted by TCRN researchers.</p>
+</div>
+
+<hr class="section-divider">
+
+<div class="cryptid-grid">
+  {% for cryptid in collections.cryptids %}
+  <div class="cryptid-card">
+    {% if cryptid.data.image %}
+    <div class="card-image">
+      <img src="{{ cryptid.data.image }}" alt="{{ cryptid.data.title }}">
+    </div>
+    {% else %}
+    <div class="card-image card-image--placeholder">
+      <span class="placeholder-glyph">?</span>
+    </div>
+    {% endif %}
+
+    <div class="card-body">
+      <h3 class="card-title"><a href="{{ cryptid.url }}">{{ cryptid.data.title }}</a></h3>
+      {% if cryptid.data.region %}
+      <div class="card-region">{{ cryptid.data.region }}</div>
+      {% endif %}
+      {% if cryptid.data.summary %}
+      <p class="card-summary">{{ cryptid.data.summary }}</p>
+      {% endif %}
+      <div class="card-tags">
+        {% if cryptid.data.status %}
+        <span class="tag tag--status">{{ cryptid.data.status }}</span>
+        {% endif %}
+        {% if cryptid.data.danger %}
+        <span class="tag tag--danger">Danger: {{ cryptid.data.danger }}</span>
+        {% endif %}
+      </div>
+      <a href="{{ cryptid.url }}" class="card-link">View Entry →</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: Submit a Sighting
+---
+
+<div class="page-header">
+  <h2>Submit a Sighting</h2>
+  <p>Use this form to report an encounter, unusual tracks, vocalizations, or other unexplained phenomena. All submissions are reviewed by a TCRN researcher before being considered for the archive. Anonymous submissions are accepted.</p>
+</div>
+
+<form class="sighting-form" name="sighting" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="sighting">
+  <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+  <div class="form-group">
+    <label for="name">Your Name <span class="optional">(or "Anonymous")</span></label>
+    <input type="text" id="name" name="name" placeholder="John D. / Anonymous">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address <span class="optional">(optional, for follow-up only)</span></label>
+    <input type="email" id="email" name="email" placeholder="your@email.com">
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="date">Date of Sighting <span class="required">*</span></label>
+      <input type="text" id="date" name="date" required placeholder="e.g. June 2019 / exact date if known">
+    </div>
+    <div class="form-group">
+      <label for="county">County <span class="required">*</span></label>
+      <input type="text" id="county" name="county" required placeholder="e.g. Sevier County">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="location">Location Description <span class="required">*</span></label>
+    <input type="text" id="location" name="location" required placeholder="e.g. Near the old mill on Hwy 321, edge of treeline">
+  </div>
+
+  <div class="form-group">
+    <label for="account">Account <span class="required">*</span></label>
+    <textarea id="account" name="account" rows="8" required placeholder="Describe what you saw, heard, or found in as much detail as you can remember. Include time of day, weather conditions, and any other witnesses."></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="creature">If known, which creature does this relate to?</label>
+    <input type="text" id="creature" name="creature" placeholder="e.g. Wampus Cat, or 'Unknown'">
+  </div>
+
+  <button type="submit" class="submit-btn">Submit Report</button>
+</form>

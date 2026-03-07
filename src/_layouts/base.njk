@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if summary %}{{ summary }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Special+Elite&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page-wrapper">
+
+    <!-- HEADER -->
+    <header id="site-header">
+      <div id="header-inner">
+        <div id="site-branding">
+          <div id="site-emblem">☽ ✦ ☾</div>
+          <h1 id="site-title"><a href="/">{{ site.title }}</a></h1>
+          <p id="site-tagline">{{ site.description }}</p>
+        </div>
+        <div id="header-meta">
+          <div class="meta-item">Est. 2003</div>
+          <div class="meta-item">TCRN Field Archive</div>
+          <div class="meta-item">Updated Regularly</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAV -->
+    <nav id="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/cryptids/">Field Guide</a></li>
+        <li><a href="/about/">About TCRN</a></li>
+        <li><a href="/submit/">Submit a Sighting</a></li>
+      </ul>
+    </nav>
+
+    <!-- NOTICE BANNER (optional) -->
+    {% if home.notice %}
+    <div id="site-notice">⚠ {{ home.notice }}</div>
+    {% endif %}
+
+    <!-- MAIN -->
+    <div id="content-wrapper">
+      <main id="main-content">
+        {{ content | safe }}
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside id="sidebar">
+        <div class="sidebar-widget">
+          <h3 class="widget-title">About This Archive</h3>
+          <p>The Tennessee Cryptozoological Research Network has been collecting and verifying field reports since 2003. All entries are sourced from direct witness testimony or published regional accounts.</p>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3 class="widget-title">Browse by Region</h3>
+          <ul class="region-list">
+            <li><a href="/cryptids/">East Tennessee</a></li>
+            <li><a href="/cryptids/">Middle Tennessee</a></li>
+            <li><a href="/cryptids/">West Tennessee</a></li>
+            <li><a href="/cryptids/">Appalachian Highlands</a></li>
+            <li><a href="/cryptids/">Cumberland Plateau</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-widget widget-warning">
+          <h3 class="widget-title">Field Safety</h3>
+          <p>Never investigate reported sighting locations alone. Always inform someone of your whereabouts. Many sites are on private property — obtain permission before entering.</p>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3 class="widget-title">Quick Stats</h3>
+          <ul class="stat-list">
+            <li><span class="stat-label">Documented Cryptids</span><span class="stat-value">12</span></li>
+            <li><span class="stat-label">Filed Reports</span><span class="stat-value">84</span></li>
+            <li><span class="stat-label">Counties Affected</span><span class="stat-value">31</span></li>
+            <li><span class="stat-label">Years Active</span><span class="stat-value">20+</span></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-widget">
+          <h3 class="widget-title">Elsewhere</h3>
+          <ul class="link-list">
+            <li><a href="https://www.bfro.net" target="_blank">BFRO Database</a></li>
+            <li><a href="https://cryptozoologynews.com" target="_blank">Cryptozoology News</a></li>
+            <li><a href="https://www.encyclopediaofarkansas.net" target="_blank">Encyclopedia of Arkansas</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="site-footer">
+      <p>© {{ site.title }} · Tennessee Cryptozoological Research Network · All reports are submitted voluntarily and presented for informational purposes only.</p>
+      <p><a href="/admin/">Contributor Login</a></p>
+    </footer>
+
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

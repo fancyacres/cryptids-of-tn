@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "cryptids"
+    label: "Cryptids"
+    folder: "src/cryptids"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Region", name: "region", widget: "string", hint: "e.g. East Tennessee, Middle Tennessee" }
+      - { label: "County / Area", name: "county", widget: "string", required: false }
+      - { label: "First Reported", name: "first_reported", widget: "string", hint: "e.g. 1973, Early 1800s" }
+      - { label: "Status", name: "status", widget: "select", options: ["Unverified", "Multiple Witnesses", "Photographic Evidence", "Disputed"] }
+      - { label: "Danger Level", name: "danger", widget: "select", options: ["Unknown", "Low", "Moderate", "High", "Extreme"] }
+      - { label: "Summary", name: "summary", widget: "text", hint: "One or two sentence overview shown on listing pages." }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Image Caption", name: "image_caption", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Sightings"
+        name: "sightings"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Date", name: "date", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Witness", name: "witness", widget: "string", hint: "Name or 'Anonymous'" }
+          - { label: "Account", name: "account", widget: "text" }
+
+  - name: "pages"
+    label: "Site Pages"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "src/_data/home.json"
+        fields:
+          - { label: "Intro Heading", name: "intro_heading", widget: "string" }
+          - { label: "Intro Text", name: "intro_text", widget: "text" }
+          - { label: "Site Notice", name: "notice", widget: "text", required: false, hint: "Optional banner shown at the top of the homepage." }
