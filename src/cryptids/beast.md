@@ -1,7 +1,7 @@
 ---
 title: The Beast of Sugar Flats Road
 Region: Middle Tennessee/Southeast Tennessee
-county:Wilson and Hamilton
+county: Wilson and Hamilton
 first_reported: 1989
 status: Multiple Witnesses
 danger: Moderate
