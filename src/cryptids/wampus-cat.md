@@ -2,25 +2,32 @@
 title: The Wampus Cat
 region: East Tennessee / Appalachian Highlands
 county: Multiple counties reported
-first_reported: Pre-1800s (Cherokee oral tradition)
+first_reported: Pre-1800s (oral tradition)
 status: Multiple Witnesses
 danger: Moderate
-summary: A large, feline creature of Cherokee legend said to walk upright on its hind legs and emit a shriek capable of driving men mad. Reports span the entirety of Appalachian Tennessee.
+summary: A large, feline creature of Cherokee legend said to walk upright on its
+  hind legs and emit a shriek capable of driving men mad. Reports span the
+  entirety of Appalachian Tennessee.
 image: ""
 image_caption: ""
 sightings:
-  - date: "March 2011"
-    location: "Unicoi County, near Rock Creek"
-    witness: "T. Honeycutt"
-    account: "Heard something screaming from the ridge — not a bobcat, too low and sustained. My dogs refused to leave the porch for three days."
-  - date: "Summer 1998"
-    location: "Greene County, Nolichucky River bottom"
-    witness: "Anonymous"
-    account: "Saw something on all fours cross the road ahead of me. Size of a large dog but the proportions were wrong — too long, shoulders too high. It turned and looked at me. Yellow eyes."
-  - date: "circa 1962"
-    location: "Carter County"
-    witness: "M. and B. Presnell (reported by family)"
-    account: "Grandmother described a creature screaming outside the farmhouse three nights running before a family member fell ill. The family attributed it to the Wampus Cat, per local tradition."
+  - date: March 2011
+    location: Unicoi County, near Rock Creek
+    witness: T. Honeycutt
+    account: Heard something screaming from the ridge — not a bobcat, too low and
+      sustained. My dogs refused to leave the porch for three days.
+  - date: Summer 1998
+    location: Greene County, Nolichucky River bottom
+    witness: Anonymous
+    account: Saw something on all fours cross the road ahead of me. Size of a large
+      dog but the proportions were wrong — too long, shoulders too high. It
+      turned and looked at me. Yellow eyes.
+  - date: circa 1962
+    location: Carter County
+    witness: M. and B. Presnell (reported by family)
+    account: Grandmother described a creature screaming outside the farmhouse three
+      nights running before a family member fell ill. The family attributed it
+      to the Wampus Cat, per local tradition.
 ---
 
 ## Overview
