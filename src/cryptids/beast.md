@@ -1,18 +1,19 @@
 ---
+- date: March 1989
 title: The Beast of Sugar Flats Road
-Region: Middle Tennessee/Southeast Tennessee
+region: Middle Tennessee
 county: Wilson and Hamilton
 first_reported: 1989
 status: Multiple Witnesses
 danger: Moderate
 summary: A large, upright humanoid creature, with long fur and large hands.
-image: ""
 image_caption: ""
-sightings:
-  - date: "March 1989"
-    location: "Wilson County, near Sugar Flats Rd"
-    witness: "J. Robinson"
-    account: "I was driving along Sugar Flat and this creature ran in front of my car."
+    account: I was driving along Sugar Flat and this creature ran in front of my car.
+sightings: null
+Region: Middle Tennessee/Southeast Tennessee
+    location: Wilson County, near Sugar Flats Rd
+    witness: J. Robinson
+image: /images/516454143_10160921269105458_8169976792414867210_n.jpg
 ---
 
 ## Overview
