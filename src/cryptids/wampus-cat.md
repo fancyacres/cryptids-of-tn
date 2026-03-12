@@ -8,7 +8,7 @@ danger: Moderate
 summary: A large, feline creature of Cherokee legend said to walk upright on its
   hind legs and emit a shriek capable of driving men mad. Reports span the
   entirety of Appalachian Tennessee.
-image: ""
+image: /images/wampus-cat-v0-cvul52kz9qo91.jpg.webp
 image_caption: ""
 sightings:
   - date: March 2011
