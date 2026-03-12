@@ -8,6 +8,7 @@ danger: Moderate
 summary: A nocturnal shapeshifter said to be found in the heart of Nashville.
   Draws its distinctive name from historic sightings at the orchard on Todd's
   Knob.
+image: /images/knoblin.jpg
 ---
 ## Overview
 
