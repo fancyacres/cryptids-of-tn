@@ -22,8 +22,6 @@ Historical accounts of the Knoblin seem conflicted on the creature's true nature
 
 Though there are reports from throughout the state, most historical documentation of the Knoblin places it in Davidson County, with its name derived from a sighting near Todd's Knob in Donelson.
 
-## Historical Context
-
 ## Assessment
 
 Though not quite as ubiquitous as some other cryptids, interest in the Knoblin has seen an uptick in direct correlation with Nashville's recent growth. Trying to pinpoint the exact nature of this elusive creature has become a point of pride for local cryptozoologists, and remains a highly contested field.
