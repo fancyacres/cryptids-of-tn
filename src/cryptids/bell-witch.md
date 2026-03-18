@@ -11,7 +11,7 @@ summary: Perhaps Tennessee's most infamous cryptid, this malevolent spirit
 ---
 ## Overview
 
-The Bell Witch is one of the most famous cryptids native to Tennessee, with the legend of her haunting being one of the most notorious instances of a poltergeist in American history. From 1817 to 1821, she haunted the Bell family, causing strange phenomena to occur and attracting dozenst of visitors who sought to examine and explain these events. This haunting culminated in the Witch poisoning John Bell Sr. and promising to return, and ever since, stories of her reappearing throughout Tennessee to prey upon the living seem to surface every few years.
+The Bell Witch is one of the most famous cryptids native to Tennessee, with the legend of her haunting being one of the most notorious instances of a poltergeist in American history. From 1817 to 1821, she haunted the Bell family, causing strange phenomena to occur and attracting dozens of visitors who sought to examine and explain these events. This haunting culminated in the Witch poisoning John Bell Sr. and promising to return, and ever since, stories of her reappearing throughout Tennessee to prey upon the living seem to surface every few years.
 
 ## Reported Characteristics
 
