@@ -17,7 +17,7 @@ The Bell Witch is one of the most famous cryptids native to Tennessee, with the 
 
 While the initial legend of the Bell Witch describes her as an invisible apparition, she made her presence known through various means. Wildlife near the Bell homestead often seemed to stalk the family and just as quickly vanish into thin air, and the Witch herself was known to attack the Bell children. Despite this hostility, the Bell Witch was just as capable of communication, responding to the name 'Kate' and seeming to have a thorough knowledge of theology. In conversation, the apparition was known to imitate voices and displayed clairvoyant tendencies.
 
-## Historical Context
+## Geographic Range
 
 The initial Bell Witch haunting occurred on a homestead near what is now the town of Adams in Robertson County. While seemingly centered on the Bells' farm, the spirit was known to follow the family, with some claiming it could travel instantaneously or even appear in two places at once. The most infamous of these secondary haunting sites is the Bell Witch Cave, where it is said that one of Betsy Bell's playmates was dragged into the darkness by the witch. Many modern researchers go so far as to claim that this cave is still the Bell Witch's favorite resting spot.
 
