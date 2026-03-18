@@ -1,5 +1,5 @@
 ---
-title: Whirling Whimpus
+title: The Whirling Whimpus
 region: Middle Tennessee
 county: Cumberland Mountains
 first_reported: 1910s
